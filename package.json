@@ -1,0 +1,24 @@
+{
+  "name": "pkgup",
+  "version": "0.1.0-alpha.0",
+  "description": "A command line tool to help you update npm packages' dependencies.",
+  "bin": "bin/pkgup.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasSchwarzer/pkgup.git"
+  },
+  "keywords": [
+    "cli",
+    "npm",
+    "yarn",
+    "package",
+    "node"
+  ],
+  "author": "Nicolas Wan <nbwansjtu@gmail.com> (https://github.com/NicolasSchwarzer)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicolasSchwarzer/pkgup/issues"
+  },
+  "homepage": "https://github.com/NicolasSchwarzer/pkgup#readme"
+}
