@@ -1,0 +1,26 @@
+{
+  "extends": "egg",
+  "rules": {
+    "arrow-parens": ["error", "as-needed", { "requireForBlockBody": true }],
+    "array-bracket-spacing": "off",
+    "space-before-function-paren": ["error", { "anonymous": "always", "named": "never", "asyncArrow": "always" }],
+    "no-console": "error",
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "always-multiline",
+        "objects": "always-multiline",
+        "imports": "always-multiline",
+        "exports": "always-multiline",
+        "functions": "always-multiline"
+      }
+    ]
+  },
+  "settings": {
+    "jsdoc": {
+      "tagNamePreference": {
+        "returns": "returns"
+      }
+    }
+  }
+}

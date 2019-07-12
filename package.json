@@ -2,8 +2,14 @@
   "name": "pkgup",
   "version": "0.1.0-alpha.0",
   "description": "A command line tool to help you update npm packages' dependencies.",
+  "main": "lib/command.js",
   "bin": "bin/pkgup.js",
-  "scripts": {},
+  "scripts": {
+    "lint": "npm run lint:es",
+    "lint:es": "eslint . --ext .js",
+    "lint-fix": "npm run lint-fix:es",
+    "lint-fix:es": "eslint . --ext .js --fix"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NicolasSchwarzer/pkgup.git"
@@ -20,5 +26,30 @@
   "bugs": {
     "url": "https://github.com/NicolasSchwarzer/pkgup/issues"
   },
-  "homepage": "https://github.com/NicolasSchwarzer/pkgup#readme"
+  "homepage": "https://github.com/NicolasSchwarzer/pkgup#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "inquirer": "^6.5.0",
+    "yargs": "^13.2.4"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-egg": "^7.4.1",
+    "husky": "^3.0.0",
+    "lint-staged": "^9.2.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run lint-fix:es",
+      "git add"
+    ]
+  }
 }
