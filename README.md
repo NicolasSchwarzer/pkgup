@@ -23,4 +23,4 @@ $ pkgup -h
 
 # Example
 
-![example gif](https://img1.dxycdn.com/2019/0717/031/3357287738176396013-2.gif)
+![example gif](https://img1.dxycdn.com/2019/0717/745/3357316372723197968-2.gif)
