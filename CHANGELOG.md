@@ -11,4 +11,4 @@
 
 #### :rocket: New Feature
 
-- First version publish, let's get play: [pkg-update](https://www.npmjs.com/package/pkg-update)
+- First version publish, let's get play: [pkg-upgrade](https://www.npmjs.com/package/pkg-upgrade)

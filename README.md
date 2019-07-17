@@ -1,18 +1,18 @@
-<h1 align="center">pkg-update</h1>
+<h1 align="center">pkg-upgrade</h1>
 
 <div align="center">
 
 A command line tool to help you update npm packages' dependencies.
 
-[![npm package](https://img.shields.io/npm/v/pkg-update.svg?style=flat-square)](https://www.npmjs.org/package/pkg-update)
-[![npm downloads](https://img.shields.io/npm/dm/pkg-update.svg?style=flat-square)](https://www.npmjs.org/package/pkg-update)
+[![npm package](https://img.shields.io/npm/v/pkg-upgrade.svg?style=flat-square)](https://www.npmjs.org/package/pkg-upgrade)
+[![npm downloads](https://img.shields.io/npm/dm/pkg-upgrade.svg?style=flat-square)](https://www.npmjs.org/package/pkg-upgrade)
 
 </div>
 
 # Install
 
 ```shell
-$ npm i -g pkg-update
+$ npm i -g pkg-upgrade
 ```
 
 # Usage
