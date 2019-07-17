@@ -14,7 +14,8 @@
         "exports": "always-multiline",
         "functions": "always-multiline"
       }
-    ]
+    ],
+    "semi": ["error", "always"]
   },
   "settings": {
     "jsdoc": {
