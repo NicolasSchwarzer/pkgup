@@ -11,4 +11,4 @@
 
 #### :rocket: New Feature
 
-- 第一个版本发布，在这里查看使用文档：[pkgup](https://www.npmjs.com/package/pkgup)
+- 第一个版本发布，在这里查看使用文档：[pkg-update](https://www.npmjs.com/package/pkg-update)

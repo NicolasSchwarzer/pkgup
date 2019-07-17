@@ -1,18 +1,18 @@
-<h1 align="center">pkgup</h1>
+<h1 align="center">pkg-update</h1>
 
 <div align="center">
 
 A command line tool to help you update npm packages' dependencies.
 
-[![npm package](https://img.shields.io/npm/v/pkgup.svg?style=flat-square)](https://www.npmjs.org/package/pkgup)
-[![npm downloads](https://img.shields.io/npm/dm/pkgup.svg?style=flat-square)](https://www.npmjs.org/package/pkgup)
+[![npm package](https://img.shields.io/npm/v/pkg-update.svg?style=flat-square)](https://www.npmjs.org/package/pkg-update)
+[![npm downloads](https://img.shields.io/npm/dm/pkg-update.svg?style=flat-square)](https://www.npmjs.org/package/pkg-update)
 
 </div>
 
 # Install
 
 ```shell
-$ npm i -g pkgup
+$ npm i -g pkg-update
 ```
 
 # Usage
