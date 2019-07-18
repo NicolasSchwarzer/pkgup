@@ -7,6 +7,12 @@
 > - :memo:   [Documentation]
 > - :house:  [Internal]
 
+## v1.0.0 (2019-07-18)
+
+#### :house: Internal
+
+- 测试通过，正式发布 1.0.0 版本。
+
 ## v0.1.1 (2019-07-17)
 
 #### :rocket: New Feature
